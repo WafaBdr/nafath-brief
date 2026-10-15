@@ -19,7 +19,16 @@ Android uses a permission system to restrict an application's access to protecte
 Resource: Request runtime permissions - Android Developers - https://developer.android.com/training/permissions
 
 ## Networking
+DNS over HTTPS (DoH) sends DNS queries through HTTPS, encrypting the connection between a client and its chosen DNS resolver. This helps prevent observers on a local network from easily reading or modifying DNS queries in transit. However, DoH does not make all browsing activity anonymous, guarantee that the resolver is trustworthy, or replace HTTPS protection for website content. NAFATH should therefore use DoH as one network protection alongside secure web connections and other security controls.
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
+
 ## Cybersecurity
+from successfully reusing authentication credentials or responses on fraudulent websites. FIDO2/WebAuthn security keys and properly implemented passkeys can provide phishing resistance through cryptographic authentication bound to the legitimate website. In contrast, passwords, SMS codes, and ordinary authenticator-app codes can be captured or relayed through phishing attacks. NAFATH should prioritize authentication methods that meet applicable phishing-resistance requirements and provide secure account recovery for citizens.
+Resource: NIST SP 800-63B - Digital Identity Guidelines - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 ## Data 
+Oman's Personal Data Protection Law, issued under Royal Decree 6/2022, establishes requirements for processing personal data. The authority should verify its applicable legal obligations concerning lawful processing, transparency, data-subject rights, security safeguards, and permitted disclosure. It should collect only data needed for legitimate purposes, restrict access to stored identity information, and establish appropriate retention and incident-handling procedures. The authority must verify the detailed requirements against the law and its implementing regulation before deploying the service.
+Resource: Personal Data Protection Law - Ministry of Transport, Communications and Information Technology - https://www.mtcit.gov.om/
+
 ## Misconception in My Track
 ## Open Question
