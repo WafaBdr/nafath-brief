@@ -31,4 +31,7 @@ Oman's Personal Data Protection Law, issued under Royal Decree 6/2022, establish
 Resource: Personal Data Protection Law - Ministry of Transport, Communications and Information Technology - https://www.mtcit.gov.om/
 
 ## Misconception in My Track
+A common misconception is that enabling multi-factor authentication automatically makes a login service resistant to phishing. However, attackers can trick users into entering passwords and one-time codes into fraudulent websites or relay those codes to legitimate services. Phishing resistance depends on how the authentication method binds the authentication process to the legitimate service. FIDO2/WebAuthn methods can provide this protection when properly implemented. NIST's Digital Identity Guidelines discuss phishing resistance in the section addressing authentication protocols and phishing-resistant authenticators.
+
 ## Open Question
+How can NAFATH implement phishing-resistant authentication while ensuring that citizens using older devices or requiring accessibility support can still access government services securely?
